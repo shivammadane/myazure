@@ -139,7 +139,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"method": "POST"
+					"method": "POST",
+					"authentication": {
+						"type": "Basic"
+					}
 				}
 			}
 		],
