@@ -120,8 +120,8 @@
 				}
 			},
 			{
-				"name": "Data flow1",
-				"type": "ExecuteDataFlow",
+				"name": "Web1",
+				"type": "WebActivity",
 				"dependsOn": [
 					{
 						"activity": "ForEach1",
@@ -137,17 +137,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"typeProperties": {
-					"dataflow": {
-						"referenceName": "dataflow1",
-						"type": "DataFlowReference"
-					},
-					"compute": {
-						"coreCount": 8,
-						"computeType": "General"
-					},
-					"traceLevel": "Fine"
-				}
+				"userProperties": []
 			}
 		],
 		"annotations": [],
