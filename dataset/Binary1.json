@@ -10,11 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Retail-datasets-master.zip",
-				"fileSystem": "data"
+				"fileName": "Machine_readable_file.csv",
+				"folderPath": "Uploads_Retail-trade-survey_Retail-trade-survey-March-2023-quarter_Download-data_retail-trade-survey-march-2023-quarter.zip",
+				"fileSystem": "new"
 			},
 			"compression": {
-				"type": "ZipDeflate",
+				"type": "tar",
 				"level": "Optimal"
 			}
 		}
